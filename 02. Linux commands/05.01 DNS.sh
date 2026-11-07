@@ -1,5 +1,5 @@
 # Linux
-=======
+# =====
 # Test DNS resolution
 nslookup google.com
 
@@ -16,7 +16,7 @@ cat /etc/resolv.conf
 resolvectl status
 
 # Windows
-=========
+# =======
 # Test DNS resolution
 nslookup google.com
 
