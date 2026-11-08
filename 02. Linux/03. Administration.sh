@@ -1,5 +1,5 @@
 # Run updates
-sudo apt update \
+sudo apt update
 sudo apt upgrade
 
 # Install a Debian package
