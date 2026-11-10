@@ -1,5 +1,5 @@
 # Send 4 commands like in Windows
-ping -c 4 ya.ru
+ping -c4 ya.ru
 # Unlimited sending commands ([ Ctrl ] + [ C ] to stop)
 ping ya.ru
 # Ping over IPv4
@@ -13,7 +13,7 @@ ip addr show
 # Network interfaces
 ifconfig
 
-# Trace route
+# Trace route (requires install package: sudo apt install inetutils-traceroute)
 traceroute ya.ru
 
 
