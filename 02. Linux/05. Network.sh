@@ -13,5 +13,7 @@ ip addr show
 # Network interfaces
 ifconfig
 
+# Trace route
+traceroute ya.ru
 
 
