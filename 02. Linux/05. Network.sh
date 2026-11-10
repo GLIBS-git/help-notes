@@ -17,3 +17,24 @@ ifconfig
 traceroute ya.ru
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
