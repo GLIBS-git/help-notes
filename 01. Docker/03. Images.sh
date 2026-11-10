@@ -8,8 +8,10 @@ docker rmi <image-id-or-name>
 docker search java
 docker search openjdk
 
-
-
+# Load image
+docker pull python:3.13-slim-bookworm
+# Show image description
+docker image inspect python:3.13-slim-bookworm
 
 
 
