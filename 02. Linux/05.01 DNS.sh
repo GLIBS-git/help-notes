@@ -15,6 +15,9 @@ cat /etc/resolv.conf
 # Check DNS configuration
 resolvectl status
 
+
+
+
 # Windows
 # =======
 # Test DNS resolution
