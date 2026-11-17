@@ -9,6 +9,8 @@ ping -6 ya.ru
 
 # Show ip address
 ip addr show
+ip -4 addr show
+ip -6 addr show
 
 # Network interfaces
 ifconfig
@@ -16,8 +18,14 @@ ifconfig
 # Trace route (requires install package: sudo apt install inetutils-traceroute)
 traceroute ya.ru
 
+# Route table
+ip route show
+ip -6 route show
 
-
+# Nearest gateway
+ip neigh show
+ip -4 neigh show
+ip -6 neigh show
 
 
 
