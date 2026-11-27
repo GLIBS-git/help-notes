@@ -14,6 +14,8 @@ cat /etc/resolv.conf
 
 # Check DNS configuration
 resolvectl status
+# Restart DNS resolver
+sudo systemctl restart systemd-resolved
 
 
 

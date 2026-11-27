@@ -26,6 +26,21 @@ ip -6 route show
 ip neigh show
 ip -4 neigh show
 ip -6 neigh show
+ip neig show
+
+# NetworkManager status
+nmcli general status
+nmcli device status
+# NetworkManager service status
+systemctl status NetworkManager
+
+# Restart NetworkManager
+sudo systemctl restart NetworkManager
+
+# Identify network devices
+ip link show
+
+
 
 
 
